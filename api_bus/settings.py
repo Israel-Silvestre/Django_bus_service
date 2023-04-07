@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_mongoengine',
     'church',
-    'member'
+    'member',
+    'bus'
 ]
 
 MIDDLEWARE = [
