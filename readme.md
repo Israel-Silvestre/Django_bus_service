@@ -37,11 +37,14 @@ python3 manage.py runserver
 ## Endpoints Disponíveis
 Os seguintes endpoints estão disponíveis para utilização nesta API:
 
-Endpoint     | HTTP   | Result
---           | --     | --
-`church`     | GET    | Listar todas as Igrejas
-`bus`        | GET    | Listar todos os Onibus
-`bus/:id`    | GET    | Obter os dados de um ônibus
-`bus`        | POST   | Criar um novo ônibus
-`bus/:id`    | PUT    | Editar um ônibus
-`bus/:id`    | DELETE | Excluir um ônibus
+Endpoint            | HTTP   | Result
+--                  | --     | --
+`church`            | GET    | Listar todas as Igrejas
+`member_church`     | POST   | Criar um relacionamento entre Membro-Igreja
+`member_church/:id` | GET    | Buscar um relacionamento entre Membro-Igreja
+`member_church/:id` | PATCH  | Alterar um relacionamento entre Membro-Igreja
+`bus`               | GET    | Listar todos os Onibus
+`bus/:id`           | GET    | Obter os dados de um ônibus
+`bus`               | POST   | Criar um novo ônibus
+`bus/:id`           | PATCH  | Editar um ônibus
+`bus/:id`           | DELETE | Excluir um ônibus

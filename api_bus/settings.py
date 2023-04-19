@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'rest_framework_mongoengine',
     'church',
     'member',
+    'member_church',
     'bus'
 ]
 
