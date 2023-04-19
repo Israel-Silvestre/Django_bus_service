@@ -13,6 +13,9 @@ API desenvolvida em Python-Django para o aplicativo de alocação de vagas nos �
 Após o repositório ser clonado na máquina local, será necessário definir as variáveis de ambiente na pasta api_bus em um arquivo chamado ".env". As dependências do projeto devem ser instaladas a partir dos seguintes comandos:
 
 ```	
+sudo apt install python3-pip
+```	
+```	
 pip3 install django
 ```
 ```	
