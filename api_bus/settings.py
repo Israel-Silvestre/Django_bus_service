@@ -32,7 +32,8 @@ INSTALLED_APPS = [
     'church',
     'member',
     'member_church',
-    'bus'
+    'bus',
+    'member_bus'
 ]
 
 MIDDLEWARE = [

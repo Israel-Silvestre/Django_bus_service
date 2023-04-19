@@ -42,12 +42,19 @@ Os seguintes endpoints estão disponíveis para utilização nesta API:
 
 Endpoint            | HTTP   | Result
 --                  | --     | --
+`member`            | GET    | Listar todos os Membros
+`member/:id`        | GET    | Obter os dados de um Membro
+`member`            | POST   | Cadastrar um novo Membro
+`member/:id`        | PATCH  | Editar um Membro
+`member/:id`        | DELETE | Excluir um Ônibus
 `church`            | GET    | Listar todas as Igrejas
-`member_church`     | POST   | Criar um relacionamento entre Membro-Igreja
+`member_church`     | POST   | Cadastrar um relacionamento entre Membro-Igreja
 `member_church/:id` | GET    | Buscar um relacionamento entre Membro-Igreja
 `member_church/:id` | PATCH  | Alterar um relacionamento entre Membro-Igreja
-`bus`               | GET    | Listar todos os Onibus
-`bus/:id`           | GET    | Obter os dados de um ônibus
-`bus`               | POST   | Criar um novo ônibus
-`bus/:id`           | PATCH  | Editar um ônibus
-`bus/:id`           | DELETE | Excluir um ônibus
+`bus`               | GET    | Listar todos os Ônibus
+`bus/:id`           | GET    | Obter os dados de um Ônibus
+`bus`               | POST   | Cadastrar um novo Ônibus
+`bus/:id`           | PATCH  | Editar um Ônibus
+`bus/:id`           | DELETE | Excluir um Ônibus
+`member_bus`        | POST   | Cadastar membro em um Ônibus
+`member_bus/:id`    | DELETE | Remover membro de um Ônibus
