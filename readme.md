@@ -48,11 +48,13 @@ Endpoint            | HTTP   | Result
 `member/:id`        | PATCH  | Editar um Membro
 `member/:id`        | DELETE | Excluir um Ônibus
 `church`            | GET    | Listar todas as Igrejas
+`church/:id/list_members` | GET | Listar os Membros vinculados a uma Igreja
 `member_church`     | POST   | Cadastrar um relacionamento entre Membro-Igreja
 `member_church/:id` | GET    | Buscar um relacionamento entre Membro-Igreja
 `member_church/:id` | PATCH  | Alterar um relacionamento entre Membro-Igreja
 `bus`               | GET    | Listar todos os Ônibus
 `bus/:id`           | GET    | Obter os dados de um Ônibus
+`bus/:id/list_members` | GET | Obter os Membros cadastrados em um Ônibus
 `bus`               | POST   | Cadastrar um novo Ônibus
 `bus/:id`           | PATCH  | Editar um Ônibus
 `bus/:id`           | DELETE | Excluir um Ônibus
